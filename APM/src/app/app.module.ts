@@ -5,12 +5,14 @@ import { ProductListComponent } from './products/product-list.component'
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe'
+import { StarComponent } from './shared/star.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
     ConvertToSpacesPipe,
+    StarComponent,
   ],
   imports: [
     BrowserModule,
